@@ -19,3 +19,21 @@ ScrollReveal().reveal(".trending_card", {
     ...scrollRevealOption,
     interval:500,
 });
+
+//destination container
+ScrollReveal().reveal(".destination_card", {
+    duration: 1000,
+    interval: 500,
+});
+
+//seller container
+ScrollReveal().reveal(".seller_card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
+
+//client container
+ScrollReveal().reveal(".client_card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
